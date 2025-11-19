@@ -1,48 +1,46 @@
 body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #e6f0ff; /* 淡いブルーグレーなどお好みで変更OK */
   color: #333;
   line-height: 1.6;
-  padding: 2rem;
-  max-width: 700px;
-  margin: 2rem auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 0;
+  padding: 2rem 1rem;
 }
-
+main {
+  background: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 h1 {
   color: #007acc;
   text-align: center;
   border-bottom: 2px solid #007acc;
   padding-bottom: 0.3rem;
 }
-
 h2 {
   color: #005a99;
   margin-top: 2rem;
   border-left: 4px solid #007acc;
   padding-left: 0.5rem;
 }
-
 p {
   margin-left: 0.5rem;
 }
-
 ul {
   list-style-type: none;
   padding-left: 1rem;
 }
-
 li {
   margin: 0.3rem 0;
 }
-
 a {
   color: #007acc;
   text-decoration: none;
   transition: color 0.2s ease, border-bottom 0.2s ease;
 }
-
 a:hover {
   color: #005a99;
   border-bottom: 1px solid #005a99;
